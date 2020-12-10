@@ -1,0 +1,5 @@
+secrets/*
+!secrets/.gitkeep
+!secrets/token
+terraform.tf*
+.terraform
