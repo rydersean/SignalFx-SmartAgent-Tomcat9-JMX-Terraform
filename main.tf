@@ -25,7 +25,7 @@ resource "google_compute_instance" "default" {
  }
 
  metadata = {
-   ssh-keys = "sryder:${file("~/.ssh/id_rsa.pub")}"
+   ssh-keys = "YOUR_USER:${file("~/.ssh/id_rsa.pub")}"
  }
 
  // location of your startup scripts
